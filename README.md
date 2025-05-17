@@ -9,7 +9,7 @@ Basically its Packaging solution to simplify the deployment (it contains like co
 1)Container are built on top of Images.  
 2)Containers are created using images.  
 3)Image which containes like dot net applicaton executable files to run the dot net app.  
-4)For using the nodejs/sql/dotnet app for any application run in docker we have a special application called docker hub where we will get all the programming languages as Images 
-
+4)For using the nodejs/sql/dotnet app for any application run in docker we have a special application called docker hub where we will get all the programming languages as Images  
+5)Docker Images are standalone executable files which is used to create a container. and docker images are sharable and portable
 
 

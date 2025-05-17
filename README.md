@@ -20,7 +20,16 @@ Images of docker build by Layers
 
 To run the dot net application we need to create several layers and finally we need to put Final Layer inside the container  
 
-<img width="865" alt="image" src="https://github.com/user-attachments/assets/8a015b8b-0bf8-4662-b7a4-4939854fb609" />
+<img width="865" alt="image" src="https://github.com/user-attachments/assets/8a015b8b-0bf8-4662-b7a4-4939854fb609" />  
+
+Docker vs VM
+------------------
+
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/2efe7ea4-c785-4e87-ae62-9b31d35a283e" />  
+
+Each VM containes its own OS so which will make heavier so in docker container for each container we will be not having seperate OS for each thats why it will be Lightweight.  
+
+
 
 
 

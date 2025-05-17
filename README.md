@@ -29,6 +29,7 @@ Docker vs VM
 
 Each VM containes its own OS so which will make heavier so in docker container for each container we will be not having seperate OS for each thats why it will be Lightweight.  
 
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/e3ea01b1-baaf-434e-9755-41344a2a0c6e" />
 
 
 

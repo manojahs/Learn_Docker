@@ -7,7 +7,8 @@ Basically its Packaging solution to simplify the deployment (it contains like co
 
 
 Container are built on top of Images.  
-Containers are created using images. 
+Containers are created using images.  
+Image which containes like dot net applicaton executable files to run the dot net app
 
 
 

@@ -42,7 +42,7 @@ To remove all the container: docker rm $(docker ps -a -q)
 To get the id of all the images and to remove all the images  
 -------------------------------------
 docker images -q
-docker images $(docker images -q)  
+docker rmi $(docker images -q)  
 
 
 

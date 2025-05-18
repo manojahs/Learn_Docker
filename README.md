@@ -34,10 +34,19 @@ Containers takes less memory when compare to VM
 Search this and click on sdk copy the command paste it in cmd prompt  
 https://hub.docker.com/r/microsoft/dotnet  
 
-To get the id of all the container  
-----------------------------------
+To get the id of all the container and to remove all the container
+----------------------------------  
 $(docker ps -a -q)  
-To remove all the container: docker rm $(docker ps -a -q)
+To remove all the container: docker rm $(docker ps -a -q)  
+
+To get the id of all the images and to remove all the images  
+-------------------------------------
+docker images -q
+docker images $(docker images -q)  
+
+
+
+
 
 
 

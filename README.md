@@ -32,7 +32,12 @@ Each VM containes its own OS so which will make heavier so in docker container f
 Containers takes less memory when compare to VM  
 
 Search this and click on sdk copy the command paste it in cmd prompt  
-https://hub.docker.com/r/microsoft/dotnet 
+https://hub.docker.com/r/microsoft/dotnet  
+
+To get the id of all the container  
+----------------------------------
+$(docker ps -a -q)  
+To remove all the container: docker rm $(docker ps -a -q)
 
 
 

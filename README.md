@@ -82,5 +82,8 @@ Docker taxonomy refers to the classification and organization of Docker's compon
    Used to persist data outside the container lifecycle
    Shared between host and containers, or between containers
   📌 Used for databases, file storage, etc.
-
+🔹 7. Docker Networks
+    Isolated communication layers for containers
+    Enables container-to-container communication
+    📌 Example: Connecting your app and database securely
 

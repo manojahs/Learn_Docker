@@ -94,3 +94,15 @@ Docker taxonomy refers to the classification and organization of Docker's compon
     GitHub Container Registry
     📌 Like a GitHub for container images
 
+| Component      | Description                               |
+| -------------- | ----------------------------------------- |
+| **Image**      | Blueprint for a container                 |
+| **Container**  | Running instance of an image              |
+| **Dockerfile** | Script to build an image                  |
+| **Engine**     | Core that runs Docker                     |
+| **Compose**    | Tool to run multiple containers           |
+| **Volumes**    | Persistent data storage                   |
+| **Networks**   | Communication channels between containers |
+| **Registry**   | Stores and shares images                  |
+
+

@@ -44,8 +44,12 @@ To get the id of all the images and to remove all the images
 docker images -q
 docker rmi $(docker images -q)  
 
+# We can run 2 different container with same container port number but here we should use different host number 
+like 
+docker run -d -p <host-port>:<container-port> image-name
 
-
+docker run -d -p 8080:80 app1
+docker run -d -p 8081:80 app2
 
 
 

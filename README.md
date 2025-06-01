@@ -62,4 +62,25 @@ Cost Effective
 Ability to run anywhere 
 TEst and rollback for deployment
 
+Docker Taxanomy
+-----------------
+
+Docker taxonomy refers to the classification and organization of Docker's components and how they interact within the container ecosystem.
+🔹 1. Docker Image
+🔹 2. Docker Container
+🔹 3. Dockerfile
+🔹 4. Docker Engine
+    The core runtime that builds and runs containers
+    Includes:
+    Docker Daemon (dockerd)
+    Docker CLI (docker)
+ 5. Docker Compose
+    Tool for defining and running multi-container apps
+    Uses a docker-compose.yml file
+   📌 Helps manage services like web + DB together
+🔹 6. Docker Volumes
+   Used to persist data outside the container lifecycle
+   Shared between host and containers, or between containers
+  📌 Used for databases, file storage, etc.
+
 

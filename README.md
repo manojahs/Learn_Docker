@@ -86,4 +86,11 @@ Docker taxonomy refers to the classification and organization of Docker's compon
     Isolated communication layers for containers
     Enables container-to-container communication
     📌 Example: Connecting your app and database securely
+8. Docker Registry
+    A storage and distribution system for Docker images
+    Examples:
+    Docker Hub (default)
+    Amazon ECR
+    GitHub Container Registry
+    📌 Like a GitHub for container images
 

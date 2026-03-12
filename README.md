@@ -13,6 +13,8 @@ Basically its Packaging solution to simplify the deployment (it contains like co
 4)For using the nodejs/sql/dotnet app for any application run in docker we have a special application called docker hub where we will get all the programming languages as Images  
 5)Docker Images are standalone executable files which is used to create a container. and docker images are sharable and portable  
 
+Docker Hub is a cloud-based registry service for storing and sharing container images, while Docker Desktop is a local application that provides a graphical user interface (GUI) and the necessary tools to build, run, and manage those containers on your local machine.
+
 Images
 ---------
 Images of docker build by Layers 
